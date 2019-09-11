@@ -37,11 +37,10 @@ header {
 
 h1 {
   font-size: 3rem;
-  transition: all 0.55s ease-out;
 }
 
 nav {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
 
   a {
@@ -50,8 +49,6 @@ nav {
     color: black;
     padding: 5px 15px;
     margin: 10px;
-
-    transition: all 0.35s ease-out;
 
     &:after {
       content: "";
@@ -64,7 +61,7 @@ nav {
       right: 0;
       margin: 0 auto;
 
-      transition: all 0.35s ease-out;
+      transition: width 0.35s ease-out;
     }
 
     &:hover {
